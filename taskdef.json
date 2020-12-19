@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "<IMAGE>",
+      "image": "674293907349.dkr.ecr.us-east-1.amazonaws.com/nodejs-bluegreen-demo:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -64,7 +64,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "<TASK_DEFINITION>",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:674293907349:task-definition/BlueGreenTask:1",
   "family": "BlueGreenTask",
   "requiresAttributes": [
     {
