@@ -1,9 +1,0 @@
-version: 0.0
-Resources:
- - TargetService:
-     Type: AWS::ECS::Service
-     Properties:
-       TaskDefinition: arn:aws:ecs:us-east-1:674293907349:task-definition/BlueGreenTask:1
-       LoadBalancerInfo:
-         ContainerName: blue-green-nodejs
-         ContainerPort: 3000
