@@ -7,3 +7,14 @@ Resources:
        LoadBalancerInfo:
          ContainerName: blue-green-nodejs
          ContainerPort: 3000
+       PlatformVersion: LATEST
+       NetworkConfiguration:
+         awsvpcConfigurations:
+           assignPublicIp: DISABLED
+
+ #Hooks:
+ #    - AfterAllowTestTraffic: "LambdaFunction..."
+ #    - AfterInstall: "LambdaFunction..."
+ #    - AfterAllowTestTraffic: "LambdaFunction..."
+ #    - BeforeAllowTraffic: "LambdaFunction..."
+ #    - AfterAllowTraffic: "LambdaFunction..."
