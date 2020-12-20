@@ -7,7 +7,7 @@ Resources:
        LoadBalancerInfo:
          ContainerName: blue-green-nodejs
          ContainerPort: 3000
-       PlatformVersion: LATEST
+       PlatformVersion: 1.4.0
 #       NetworkConfiguration:
 #         awsvpcConfiguration:
 #           subnets:
