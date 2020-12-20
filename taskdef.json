@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn":  "PLACEHOLDER_EXECUTION_ROLE",
+  "executionRoleArn": "arn:aws:iam::674293907349:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -59,7 +59,7 @@
   ],
   "placementConstraints": [],
   "memory": "512",
-  "taskRoleArn": "PLACEHOLDER_TASK_ROLE",
+  "taskRoleArn": "arn:aws:iam::674293907349:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EC2",
     "FARGATE"
