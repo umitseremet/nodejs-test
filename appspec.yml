@@ -9,7 +9,7 @@ Resources:
          ContainerPort: 3000
        PlatformVersion: LATEST
        NetworkConfiguration:
-         awsvpcConfigurations:
+         awsvpcConfiguration:
            assignPublicIp: DISABLED
 
  #Hooks:
