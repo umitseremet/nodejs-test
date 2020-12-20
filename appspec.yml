@@ -8,9 +8,11 @@ Resources:
          ContainerName: blue-green-nodejs
          ContainerPort: 3000
        PlatformVersion: LATEST
-       NetworkConfiguration:
-         awsvpcConfiguration:
-           assignPublicIp: DISABLED
+#       NetworkConfiguration:
+#         awsvpcConfiguration:
+#           subnets:
+#           securityGroups:
+#           assignPublicIp: DISABLED
 
  #Hooks:
  #    - AfterAllowTestTraffic: "LambdaFunction..."
