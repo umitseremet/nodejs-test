@@ -15,8 +15,8 @@ Resources:
 #           assignPublicIp: DISABLED
 
  #Hooks:
- #    - AfterAllowTestTraffic: "LambdaFunction..."
+ #    - BeforeInstall: "LambdaFunction..."
  #    - AfterInstall: "LambdaFunction..."
- #    - AfterAllowTestTraffic: "LambdaFunction..."
+ #    - AfterAllowTestTraffic: "LambdaFunction... could be RELATED TO QA"
  #    - BeforeAllowTraffic: "LambdaFunction..."
- #    - AfterAllowTraffic: "LambdaFunction..."
+ #    - AfterAllowTraffic: "LambdaFunction... could be RELATED TO ROLLBACK DECISION as Yes or No"
